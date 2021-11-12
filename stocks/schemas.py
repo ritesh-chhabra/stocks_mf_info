@@ -6,4 +6,5 @@ from typing import Optional
 class ShowStock(BaseModel):
     name: str
     price: float
-    time: Optional[str] = str(datetime.now())
+    time: str
+    # time: Optional[str] = str(datetime.now())
